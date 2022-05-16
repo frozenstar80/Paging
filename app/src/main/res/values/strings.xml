@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Paging 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="dont_t_have_an_account_register_now">Dont\'t have an Account ?<font color='#F82020'> Register Now</font></string>
+    <string name="signin_into_your_n_acoount">SignIn into your\n Acoount</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="preference_file_key">KEY</string>
 </resources>

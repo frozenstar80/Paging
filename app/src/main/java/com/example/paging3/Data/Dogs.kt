@@ -1,17 +1,17 @@
 package com.example.paging3.Data
 
-import com.squareup.moshi.Json
+import com.google.gson.annotations.SerializedName
 
 data class Dogs(
-    @Json(name = "breeds")
+    @SerializedName("breeds")
     val breeds:List<Breeds>?,
-    @Json(name= "url")
+    @SerializedName("url")
     val url:String?
 )
 
 data class Breeds(
-    @Json(name="id")
+    @SerializedName("id")
     val id:Int?,
-    @Json(name="name")
+    @SerializedName("name")
     val name:String?
 )
